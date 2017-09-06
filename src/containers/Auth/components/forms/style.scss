@@ -1,0 +1,44 @@
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .input {
+    background-color: transparent;
+    border: none;
+    padding-bottom: 5px;
+    text-align: center;
+    outline-width: 0;
+    border-bottom: 1px solid white;
+    width: 300px;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: Cabin;
+  }
+
+  .button {
+    width: 300px;
+    margin-top: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    outline-width: 0;
+    background-color: #9DFFC7;
+    font-size: 15px;
+    font-family: Cabin-Bold;
+
+    &:active {
+      background-color: #3EFF90;
+    }
+  }
+}
+
+.signup {
+  height: 600px;
+}
+
+.signin {
+  height: 600px;
+}

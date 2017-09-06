@@ -1,0 +1,28 @@
+.paginator {
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+
+  .paginator-item {
+    background-color: #030655;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+    transition: all 0.2s ease-out;
+
+    &:hover {
+      background-color: #3EFF90;
+      color: black;
+    }
+  }
+
+  .active {
+    background-color: #3EFF90;
+    color: black;
+  }
+}
