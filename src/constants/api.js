@@ -1,1 +1,1 @@
-export const api = 'http://localhost:4040/api';
+export const api = 'http://kzrv.tk/api';

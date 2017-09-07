@@ -52,7 +52,7 @@ module.exports = {
     extensions: ['.js', '.jsx'],
   },
   plugins: [
-    new uglifyJsPlugin({
+    new uglifyJsPlugin({ // eslint-disable-line new-cap
       compress: {
         warnings: false,
       },
