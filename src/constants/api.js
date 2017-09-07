@@ -1,1 +1,1 @@
-export const api = 'http://blog.kzrv.tk/api';
+export const api = '/api';
