@@ -11,5 +11,5 @@ jobs:
       - deploy:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              scp -r ~/repo/build/* tema@kzrv.tk:~/blog
+              scp -r ~/repo/build/* circleci@kzrv.tk:~/blog
             fi
